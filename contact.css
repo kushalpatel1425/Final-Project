@@ -1,0 +1,51 @@
+@import url('https://fonts.google.com/specimen/Rubik+Microbe');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+    background-color: rgb(240, 239, 159);
+}
+
+legend{
+    font-size: x-large;
+    font-family: "Sofia", sans-serif;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+p{
+    font-family: 'Rubik Microbe', cursive;
+}
+
+nav{
+    background-color: aqua;
+    justify-content: space-around;
+    display: flex;
+    padding: 1px;
+    text-decoration: none;    
+}
+footer{
+    text-align: center;
+}
+
+
+nav a {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px 4px;
+    transition: 0.3s;
+  }
+  
+ nav a:hover {
+    background-color: #532020;
+    color: white;
+  }
+

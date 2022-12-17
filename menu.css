@@ -1,0 +1,212 @@
+@import url('https://fonts.google.com/specimen/Rubik+Microbe');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(97, 46, 37);
+    text-shadow: 2px 2px 4px #1ae1fb;
+    font-family: "Sofia", sans-serif;
+    animation-name: name;
+    animation-duration: 30s;
+}
+
+h2{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #1ae1fb;
+    font-family: "Sofia", sans-serif;
+}
+
+@keyframes name {
+    0% {
+        background-color: red;
+    }
+
+    15% {
+        background-color: yellow;
+    }
+
+    30% {
+        background-color: blue;
+    }
+
+    45% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    90% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+
+body {
+    background-color: rgb(240, 239, 159);
+}
+
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+nav{
+    background-color: aqua;
+    justify-content: space-around;
+    display: flex;
+    padding: 1px;
+    text-decoration: none;    
+}
+
+nav a {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px 4px;
+    transition: 0.3s;
+  }
+  
+ nav a:hover {
+    background-color: #532020;
+    color: white;
+  }
+
+
+p {
+    font-size: large;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.sec1 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.sec2 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.sec3 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec3 img {
+    width: 350px;
+    height: 300px;
+}
+
+.sec4 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec4 img {
+    width: 450px;
+    height: 300px;
+}
+
+.sec5 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec5 img {
+    width: 450px;
+    height: 300px;
+}
+
+.sec6 {
+    border: 10px solid rgb(115, 0, 0);
+    border-radius: 1px;
+    padding: 5px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec6 img {
+    width: 300px;
+    height: 380px;
+}
+
+body > .menu1 {
+   
+    display: flex;
+    flex-wrap: initial;
+    align-items: center;
+    padding-left: 7em;
+ 
+  }
+  
+ body > .menu1 {
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  body > .menu2 {
+    display: flex;
+    flex-wrap: initial;
+    padding-left: 4em;
+   
+  }
+  
+ body > .menu2 {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  footer {
+    text-align: center
+}

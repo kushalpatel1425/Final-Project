@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact Details</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home Page</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact Details</a>
+    </nav>
+    <form action="./thanks.html" netlify method="post">
+        <fieldset>
+            <legend>Name</legend>
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Country</legend>
+            <p>
+                <label for="Country">Country:</label>
+                <select name="Country Name">
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                   </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Information</legend> 
+             <p>
+                <label for="E-mail">E-mail:</label>
+                <input type="text" name="E-mail" id="E-mail">
+            </p>
+            <p>
+                <label for="Contact_number">Contact_Number:</label>
+                <input type="tel" name="Contact_number" id="Contact_number" minlength="10" maxlength="10">
+            </p>
+            <p>
+                <label for="Address">Address:</label>
+                <input type="tel" name="Address" id="Address" minlength="10" maxlength="10">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Referral Code</legend>
+            <p>
+                <label for="Referral_Code">4 Digits code:</label>
+                <input type="Code" Code="Referral_Code" id="Referral_Code" minlength="4" maxlength="4">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Shopping Review</legend>
+           <p>
+             <label for="Message">Bakery Review</label>
+             <textarea id="Message" name="Message" rows="4" cols="60">
+             </textarea>
+           </p>
+       </fieldset>
+       <fieldset>
+           <p>
+             <input type="Submit" value="Submit">
+           </p>
+       </fieldset>
+    </form>
+    <footer>
+        &copy; Kushal Patel & Vatsal Boricha, 2022
+    </footer>
+</body>
+</html>

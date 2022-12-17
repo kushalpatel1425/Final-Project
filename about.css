@@ -1,0 +1,72 @@
+@import url('https://fonts.google.com/specimen/Rubik+Microbe');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(85, 35, 35);
+  text-shadow: 2px 2px 4px #1ae1fb;
+  font-family: "Sofia", sans-serif;
+ animation-name: name;
+  animation-duration: 30s;
+}
+
+@keyframes name {
+    0%   {background-color:red; }
+    15%  {background-color:yellow; }
+    30%  {background-color:blue; }
+    45%  {background-color:green; }
+    60% {background-color:red;}
+    75%  {background-color:yellow; }
+    90%  {background-color:blue; }
+    100%  {background-color:green; }
+  }
+
+  body {
+    background-color: rgb(240, 239, 159);
+}
+
+
+main  p {
+    font-size: large;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+nav{
+    background-color: aqua;
+    justify-content: space-around;
+    display: flex;
+    padding: 1px;
+    text-decoration: none;    
+}
+
+
+nav a {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px 4px;
+    transition: 0.3s;
+  }
+  
+ nav a:hover {
+    background-color: #532020;
+    color: white;
+  }
+
+
+footer{
+    text-align: center;
+    margin-bottom: auto;
+    color: rgb(0, 0, 0);
+}

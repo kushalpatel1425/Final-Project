@@ -1,0 +1,83 @@
+@import url('https://fonts.google.com/specimen/Rubik+Microbe');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+  text-shadow: 2px 2px 4px #1ae1fb;
+  font-family: "Sofia", sans-serif;
+ animation-name: name;
+  animation-duration: 55s;
+}
+
+@keyframes name {
+    0%   {background-color:red; }
+    15%  {background-color:yellow; }
+    30%  {background-color:blue; }
+    45%  {background-color:green; }
+    60% {background-color:red;}
+    75%  {background-color:yellow; }
+    90%  {background-color:blue; }
+    100%  {background-color:green; }
+  }
+
+h2{
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px #f05d2c;
+    font-family: "Sofia", sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 55);
+}
+
+body .Welcome{
+    background:url(./cupcakes.jpg);
+    background-size: cover;
+    border-style: dashed;
+    border-radius: 1em;
+    padding: 15px;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+nav{
+    background-color: aqua;
+    justify-content: space-around;
+    display: flex;
+    padding: 1px;
+    text-decoration: none;    
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+nav a {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 20px;
+    margin: 2px 4px;
+    transition: 0.3s;
+  }
+  
+ nav a:hover {
+    background-color: #532020;
+    color: white;
+  }
